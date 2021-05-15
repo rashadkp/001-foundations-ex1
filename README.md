@@ -24,9 +24,9 @@ Based on this, this table gives the categories a person can fall into
 </table>
 
 # Exercises
-Write a program that when run will ask a person for his name, weight
-and height. It should then calculate his BMI based on the above
-formula and tell them which category he belong to. 
+Write a program named `bmi.c` that when run will ask a person for his
+name, weight and height. It should then calculate his BMI based on the
+above formula and tell them which category he belong to.
 
 The output should be in the format
 
@@ -35,7 +35,8 @@ The output should be in the format
 Please refer the examples for the expected output format.
 
 Please make sure that you use the cs50 functions rather than `scanf`
-to read input. The auto grader will fail if you use `scanf`.
+to read input. The auto grader will fail if you use `scanf`. Please
+make sure that the file is called `bmi.c`.
 
 # Example run
 
