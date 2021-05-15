@@ -26,42 +26,46 @@ Based on this, this table gives the categories a person can fall into
 # Exercises
 Write a program that when run will ask a person for his name, weight
 and height. It should then calculate his BMI based on the above
-formula and tell them which category he belong to. Please make sure
-that the words "Underweight", "Normal", "Overweight" and "Obese" are
-printed in the output properly.
+formula and tell them which category he belong to. 
+
+The output should be in the format
+
+       name BMI category
+
+Please refer the examples for the expected output format.
 
 Please make sure that you use the cs50 functions rather than `scanf`
-to read input
+to read input. The auto grader will fail if you use `scanf`.
 
 # Example run
 
-    $./bmi
+    $ ./bmi
     Enter your name John
     Enter your height (in m) 1.7
     Enter your weight (in kg) 20
-    Your BMI is 6.92
-    Hey John. You're underweight
+    John 6.92 underweight
 
-    $./bmi
+
+    $ ./bmi
     Enter your name John
     Enter your height (in m) 1.5
     Enter your weight (in kg) 90
-    Your BMI is 40.00
-    Hey John. You're obese
+    John 40.00 obese
 
-    $./bmi
+
+    $ ./bmi
     Enter your name John
     Enter your height (in m) 1.5
     Enter your weight (in kg) 60
-    Your BMI is 26.67
-    Hey John. You're overweight
+    John 26.67 overweight
 
-    $./bmi
-    Enter your name John
-    Enter your height (in m) 1.5
-    Enter your weight (in kg) 50
-    Your BMI is 22.22
-    Hey John. You're of normal weight
+
+
+     $ ./bmi
+     Enter your name John
+     Enter your height (in m) 1.5
+     Enter your weight (in kg) 50
+     John 22.22 normal weight
 
 
 
